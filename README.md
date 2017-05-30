@@ -7,5 +7,6 @@ Example Usage:
 
 ``crontab -e``
 
-#Update IP every hour (= 'at minute 0')
+Update IP every hour (= 'at minute 0')
+
 ``0 * * * * curl http://urlofyourhost.com/ip.php ``
