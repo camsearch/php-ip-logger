@@ -5,7 +5,7 @@ Useful when you don't have a dynamic DNS and need to access your home network.
 
 Example Usage: 
 
-``crontab -e
+``crontab -e``
 
 #Update IP every hour (= 'at minute 0')
-0 * * * * curl http://urlofyourhost.com/ip.php ``
+``0 * * * * curl http://urlofyourhost.com/ip.php ``
