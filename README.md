@@ -10,3 +10,5 @@ Example Usage:
 Update IP every hour (= 'at minute 0')
 
 ``0 * * * * curl http://urlofyourhost.com/ip.php ``
+
+The logged ip will then be written to 'ip.txt' (located in the same folder as ip.php)
